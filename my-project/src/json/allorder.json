@@ -1,0 +1,29 @@
+{
+    "code": 1,
+    "msg": "查询成功",
+    "data": [
+        {
+            "orderNo": "1217580602301645928",
+            "amount": "100.00",
+            "goodsImageUrl": "../images/img1.jpg",
+            "goodsName": "只是产权",
+            "priceConfirm": 0,
+            "priceStart": "100.00",
+            "state": 10,
+            "createTime": "2017-06-30 12:02:58",
+            "lawyerId": 1926
+        },
+        {
+            "orderNo": "1117430658301645925",
+            "amount": "0.00",
+            "goodsImageUrl": "../images/img1.jpg",
+            "goodsName": "企业法律顾问（半年包）",
+            "priceConfirm": 1,
+            "priceStart": "10.00",
+            "priceEnd": "50.00",
+            "state": 10,
+            "createTime": "2017-06-30 11:58:43",
+            "lawyerId": 1926
+        }
+    ]
+}

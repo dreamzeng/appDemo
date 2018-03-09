@@ -1,0 +1,71 @@
+.icon{background-image: url(../img/sprite.png);display: inline-block;}
+.icon_bid {
+  background-position: -108px -121px;
+  width: 48px;
+  height: 50px;
+}
+.icon_book {
+  background-position: -217px 0px;
+  width: 44px;
+  height: 54px;
+}
+.icon_case { 
+  background-position: -158px -59px;
+  width: 52px;
+  height: 54px;
+}
+.icon_check {
+  background-position: 0px -121px;
+  width: 51px;
+  height: 54px;
+}
+.icon_circle {
+  background-position: -158px 0px;
+  width: 54px;
+  height: 54px;
+}
+.icon_comput {  
+  background-position: -217px -118px;
+  width: 44px;
+  height: 52px;
+}
+.icon_hcircle { 
+  background-position: -59px -62px;
+  width: 54px;
+  height: 54px;
+}
+.icon_hjob {
+  background-position: -99px 0px;
+  width: 54px;
+  height: 54px;
+}
+.icon_iphone {  
+  background-position: -56px -121px;
+  width: 47px;
+  height: 54px;
+}
+.icon_job {  
+  background-position: 0px -62px;
+  width: 54px;
+  height: 54px;
+}
+.icon_manage { 
+  background-position: -217px -59px;
+  width: 44px;
+  height: 54px;
+}
+.icon_order {  
+  background-position: -161px -121px;
+  width: 46px;
+  height: 46px;
+}
+.icon_read {  
+  background-position: 0px -180px;
+  width: 42px;
+  height: 46px;
+}
+.icon_user {  
+  background-position: 0px 0px;
+  width: 94px;
+  height: 57px;
+}

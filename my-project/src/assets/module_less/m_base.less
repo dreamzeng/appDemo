@@ -1,0 +1,80 @@
+/********** 基础样式 **********
+作    者:Ligana
+
+时    间:2017-09-22
+
+修 改 人:Ligana
+
+修改时间:2017-09-22
+
+修改说明:xxx
+
+********** 基础样式 **********/
+
+//默认字体大小
+section.m_content{margin-top: 2.4375rem /* 39/16 */ }
+body{ background-color:@cGrey06;}
+a{color:@cGrey01;
+  &:hover{color:@cGrey01;}
+}
+input{color:@cGrey01; -webkit-appearance:none;}
+//图片
+img{*width:100%; max-width:100%; max-height:100%;}
+//全站主体宽度
+.w{width:100%; max-width:100%; margin-left:auto; margin-right:auto;}
+//外边距和内边距
+.m{margin-left:@10px; margin-right:@10px;}
+.p{padding-left:@10px; padding-right:@10px;}
+.m_top{margin-top:@8px;}
+
+//浮动相关
+.fl{float:left;}
+.fr{float:right;}
+.clear{clear:both;}
+.clearfix{clear:both; zoom:1;}
+.clearfix:after{clear:both; display:block; height:0; font-size:0; content:"."; visibility:hidden;}
+
+//固定在顶部或底
+.fixed_t{width:100%!important; position:fixed!important; right:auto!important; left:0!important; bottom:auto!important; top:0!important; z-index:999!important;}
+.fixed_b{width:100%!important; position:fixed!important; right:auto!important; left:0!important; top:auto!important; bottom:0!important; z-index:999!important;}
+
+//禁止页面滚动
+.forbid_scroll{ position:fixed; width:100%; height:100%; overflow:hidden;}
+
+//垂直居中相关
+.v{display:inline-block; width:0; height:100%; vertical-align:middle; font-size:0;}
+.v_b:before,.v_a:after{display:inline-block; vertical-align:middle; width:0; height:100%; font-size:0; content:'';}
+
+//处理超出字符
+.strLen{text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+
+//========== 自适应字体基数 ==========//
+
+@media(max-width:320px)
+{//iPhone5
+  //html{font-size:10px;}
+}
+@media(min-width:321px) and (max-width:639px)
+{//手机竖屏
+  //html{font-size:12px;}
+}
+@media(min-width:640px) and (max-width:767px)
+{//手机横屏
+  html{font-size:14px;}
+}
+@media(min-width:768px) and (max-width:1023px)
+{//平板竖屏
+  html{font-size:16px;}
+}
+@media(min-width:1024px) and (max-width:1200px)
+{//平板横屏
+  html{font-size:17px;}
+}
+@media(min-width:1200px) and (max-width:1679px)
+{//笔记本
+  html{font-size:18px;}
+}
+@media(min-width:1680px)
+{//台式机
+  html{font-size:20px;}
+}

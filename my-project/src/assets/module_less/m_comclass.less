@@ -1,0 +1,33 @@
+/********** 变量类calss **********
+
+作    者:Ligana
+
+时    间:2017-09-22
+
+修 改 人:Ligana
+
+修改时间:2017-09-22
+
+修改说明:xxx
+
+********** 变量类calss **********/
+
+//浮动
+.fl(){float:left;}
+.fr(){float:right;}
+
+//水平并排相关
+.lineBlockBox(@align:left){display:table; text-align:@align; width:100%; font-size:0; letter-spacing:-3px;  word-spacing:-3px;}
+.lineBlock(@align:middle){display:inline-block; *display:inline; *zoom:1; vertical-align:@align; font-size:@12px; letter-spacing:normal; word-spacing:normal;}
+.lineBlockBoxs(@align:left){display:table; width:100%; text-align:@align; font-size:0; letter-spacing:-3px;word-spacing:-3px;
+  >*{.lineBlock;}
+}
+
+//处理超出字符
+.strLen(){text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+
+//动画时间
+.animate(@time:0.5s;){transition:all @time; -moz-transition:all @time; -o-transition:all @time; -ms-transition:all @time; -webkit-transition:all @time;}
+
+//旋转相关
+.rotate(@rotate:180deg){transform:rotate(@rotate); -moz-transform:rotate(@rotate); -ms-transform:rotate(@rotate); -o-transform:rotate(@rotate); -webkit-transform:rotate(@rotate);}
